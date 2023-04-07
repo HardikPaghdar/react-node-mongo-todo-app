@@ -1,0 +1,91 @@
+.todo-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .todo-title {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .todo-description {
+    margin-bottom: 0;
+  }
+  
+  .todo-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .popup-content {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .popup-content h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .popup-content form {
+    margin: 0;
+  }
+  
+  .popup-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }  
